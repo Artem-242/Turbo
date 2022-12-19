@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221128075743">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221219200748">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,7 @@
 					<li class="header__item"><a href="" class="header__link">Частые вопросы</a></li>
 				</ul>
 				<div class="header__buttons buttons-header">
-					<a href="" class="buttons-header__button">Регистрация</a>
+					<a href="" data-popup="#popup" class="buttons-header__button">Регистрация</a>
 					<a href="" class="buttons-header__button buttons-header__button_border">Вход</a>
 				</div>
 				<button type="button" class=" icon-menu"><span></span></button>
@@ -188,63 +188,200 @@
 						<div class="how__item item-how">
 							<div class="item-how__title title-how ">
 								<div class="title-how__number">1</div>
-								<h5 class="title-how__title">Сбор запросов конкурентов</h5>
+								<h5 class="title-how__title">Подготовка готовой семантики</h5>
 							</div>
 							<div class="item-how__text">Берем запросы со страниц конкурентов, используя платные, обновляемые
 								базы
 							</div>
-							<div class="item-how__image-block">
-								<div class="item-how__image">
-									<picture><source srcset="img/how/1.webp" type="image/webp"><img src="img/how/1.jpg" alt=""></picture>
-								</div>
-								<div class="item-how__icon">
-									<img src="img/how/icons/1.svg" alt="">
-								</div>
+
+							<div class="item-how__image">
+								<picture><source srcset="img/how/1.webp" type="image/webp"><img src="img/how/1.jpg" alt=""></picture>
+								<div class="item-how__image-block"></div>
+							</div>
+						</div>
+						<div class="how__item item-how">
+							<div class="item-how__title title-how ">
+								<div class="title-how__number">2</div>
+								<h5 class="title-how__title">Подготовка готовой семантики</h5>
+							</div>
+							<div class="item-how__text">Вначале производится чистка запросов. Далее сбор данных и их обработка
+								с перепроверкой данных
+							</div>
+							<div class="item-how__image">
+								<picture><source srcset="img/how/2.webp" type="image/webp"><img src="img/how/2.jpg" alt=""></picture>
+								<div class="item-how__image-block"></div>
+							</div>
+						</div>
+
+						<div class="how__item item-how">
+							<div class="item-how__title title-how ">
+								<div class="title-how__number">3</div>
+								<h5 class="title-how__title">Подготовка готовой семантики</h5>
+							</div>
+							<div class="item-how__text">Сбор частотности. Определение правильного (самого частотного) порядка
+								слов
+							</div>
+
+							<div class="item-how__image">
+								<picture><source srcset="img/how/3.webp" type="image/webp"><img src="img/how/3.jpg" alt=""></picture>
+								<div class="item-how__image-block"></div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="page__price price">
-				<div class="price__container">
-					<h2 class="price__title title">Цены</h2>
-					<div class="price__inner">
-						<div class="price__table table-price">
-							<div class="table-price__titles">
-								<h5 class="table-price__title">Функционал</h5>
-								<h5 class="table-price__title">Стоимость</h5>
+			<section class="page__reviews reviews">
+				<div class="reviews__container">
+					<div class="reviews__actions">
+						<h4 class="reviews__title title">Отзывы</h4>
+						<div class="reviews__controls controls-reviews">
+							<button type="button" class="controls-reviews__button-prev controls-reviews__button _icon-slider-arrow"></button>
+							<div class="controls-reviews__pagination"></div>
+							<button type="button" class="controls-reviews__button-next controls-reviews__button _icon-slider-arrow"></button>
+						</div>
+					</div>
+					<div class="reviews__slider swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__item item-reviews">
+									<div class="item-reviews__inner">
+										<div class="item-reviews__person person-item">
+											<div class="person-item__image">
+												<picture><source srcset="img/reviews/1.webp" type="image/webp"><img src="img/reviews/1.jpg" alt=""></picture>
+											</div>
+											<h5 class="person-item__title">Кирилл</h5>
+											<div class="person-item__text">SEO специалист</div>
+										</div>
+										<div class="item-reviews__info info-item">
+											<h5 class="info-item__title">Лучший сервис!!!</h5>
+											<p class="info-item__text">Задача организации, в особенности же дальнейшее развитие
+												различных форм деятельности в значительной степени обуславливает создание системы
+												обучения кадров, соответствует насущным потребностям. Повседневная практика
+												показывает, что укрепление и развитие!!
+											</p>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="table-price__item item-table">
-								<div class="item-table__service">Сбор запросов по конкурентам</div>
-								<div class="item-table__price"><span>100 руб.</span> за задачу</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__item item-reviews">
+									<div class="item-reviews__inner">
+										<div class="item-reviews__person person-item">
+											<div class="person-item__image">
+												<picture><source srcset="img/reviews/2.webp" type="image/webp"><img src="img/reviews/2.jpg" alt=""></picture>
+											</div>
+											<h5 class="person-item__title">Иван</h5>
+											<div class="person-item__text">SEO студия “Альтернатива”</div>
+										</div>
+										<div class="item-reviews__info info-item">
+											<h5 class="info-item__title">Значимость этих проблем настолько очевидна :)</h5>
+											<p class="info-item__text">Таким образом рамки и место обучения кадров играет важную
+												роль в формировании соответствующий условий активизации.</p>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="table-price__item item-table">
-								<div class="item-table__service">Класстеризатор по ТОП</div>
-								<div class="item-table__price"><span>0.1 руб.</span> за фразу</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__item item-reviews">
+									<div class="item-reviews__inner">
+										<div class="item-reviews__person person-item">
+											<div class="person-item__image">
+												<picture><source srcset="img/reviews/1.webp" type="image/webp"><img src="img/reviews/1.jpg" alt=""></picture>
+											</div>
+											<h5 class="person-item__title">Кирилл</h5>
+											<div class="person-item__text">SEO специалист</div>
+										</div>
+										<div class="item-reviews__info info-item">
+											<h5 class="info-item__title">Лучший сервис!!!</h5>
+											<p class="info-item__text">Задача организации, в особенности же дальнейшее развитие
+												различных форм деятельности в значительной степени обуславливает создание системы
+												обучения кадров, соответствует насущным потребностям. Повседневная практика
+												показывает, что укрепление и развитие!!</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__item item-reviews">
+									<div class="item-reviews__inner">
+										<div class="item-reviews__person person-item">
+											<div class="person-item__image">
+												<picture><source srcset="img/reviews/2.webp" type="image/webp"><img src="img/reviews/2.jpg" alt=""></picture>
+											</div>
+											<h5 class="person-item__title">Иван</h5>
+											<div class="person-item__text">SEO студия “Альтернатива”</div>
+										</div>
+										<div class="item-reviews__info info-item">
+											<h5 class="info-item__title">Значимость этих проблем настолько очевидна :)</h5>
+											<p class="info-item__text">Таким образом рамки и место обучения кадров играет важную
+												роль в формировании соответствующий условий активизации.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__item item-reviews">
+									<div class="item-reviews__inner">
+										<div class="item-reviews__person person-item">
+											<div class="person-item__image">
+												<picture><source srcset="img/reviews/1.webp" type="image/webp"><img src="img/reviews/1.jpg" alt=""></picture>
+											</div>
+											<h5 class="person-item__title">Кирилл</h5>
+											<div class="person-item__text">SEO специалист</div>
+										</div>
+										<div class="item-reviews__info info-item">
+											<h5 class="info-item__title">Лучший сервис!!!</h5>
+											<p class="info-item__text">Задача организации, в особенности же дальнейшее развитие
+												различных форм деятельности в значительной степени обуславливает создание системы
+												обучения кадров, соответствует насущным потребностям. Повседневная практика
+												показывает, что укрепление и развитие!!</p>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="price__benefits benefits-price">
-							<div class="benefits-price__inner">
-								<div class="benefits-price__item item-benefits">
-									<div class="item-benefits__image">
-										<img src="img/price/1.svg" alt="">
-									</div>
-									<div class="item-benefits__body">
-										<h5 class="item-benefits__title">Никаких тарифов</h5>
-										<div class="item-benefits__text">Пополняйте на ту сумму, которую нужно сейчас,
-											не переплачивая за тариф</div>
-									</div>
-								</div>
-								<div class="benefits-price__item item-benefits">
-									<div class="item-benefits__image">
-										<img src="img/price/2.svg" alt="">
-									</div>
-									<div class="item-benefits__body">
-										<h5 class="item-benefits__title">Не сгорает баланс</h5>
-										<div class="item-benefits__text">Нет ограничений по времени</div>
-									</div>
-								</div>
-							</div>
+					</div>
+					<div class="reviews__btn">
+						<a href="#" class="reviews__button button">Попробовать</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__popular popular">
+				<div class="popular__container">
+					<h4 class="popular__title title">Популярные вопросы</h4>
+					<div data-spollers class="popular__spollers spollers-popular">
+						<div class="spollers-popular__item">
+							<button type="button" data-spoller class="spollers-popular__title _icon-spoller-arrow">Насколько
+								полной получается семантика?
+							</button>
+							<div class="spollers-popular__body">Используется сразу несоклько платных, обновляемых баз, общей
+								суммой 150 миллионов запросов. Сегодня практически не осталось ниш в которых не проработана
+								seo-специалистами семантика. Вероятность найти новые ключи, крайне низкая. Поэтому, гораздо
+								эффективнее взять готовую семантику конкурентов.</div>
+						</div>
+						<div class="spollers-popular__item">
+							<button type="button" data-spoller class="spollers-popular__title _icon-spoller-arrow"> Почему не
+								нужно чистить запросы?</button>
+							<div class="spollers-popular__body">Используется сразу несоклько платных, обновляемых баз, общей
+								суммой 150 миллионов запросов. Сегодня практически не осталось ниш в которых не проработана
+								seo-специалистами семантика. Вероятность найти новые ключи, крайне низкая. Поэтому, гораздо
+								эффективнее взять готовую семантику конкурентов.</div>
+						</div>
+						<div class="spollers-popular__item">
+							<button type="button" data-spoller class="spollers-popular__title _icon-spoller-arrow">Возможна ли
+								оплата для юридических лиц?</button>
+							<div class="spollers-popular__body">Используется сразу несоклько платных, обновляемых баз, общей
+								суммой 150 миллионов запросов. Сегодня практически не осталось ниш в которых не проработана
+								seo-специалистами семантика. Вероятность найти новые ключи, крайне низкая. Поэтому, гораздо
+								эффективнее взять готовую семантику конкурентов.</div>
+						</div>
+						<div class="spollers-popular__item">
+							<button type="button" data-spoller class="spollers-popular__title _icon-spoller-arrow">Почему
+								класстеризатор не распределяет сразу по нескольким страницам?</button>
+							<div class="spollers-popular__body">Используется сразу несоклько платных, обновляемых баз, общей
+								суммой 150 миллионов запросов. Сегодня практически не осталось ниш в которых не проработана
+								seo-специалистами семантика. Вероятность найти новые ключи, крайне низкая. Поэтому, гораздо
+								эффективнее взять готовую семантику конкурентов.</div>
 						</div>
 					</div>
 				</div>
@@ -328,14 +465,19 @@
 	<!-- <div id="popup" aria-hidden="true" class="popup">
 	<div class="popup__wrapper">
 		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
-				Text
+			<div class="popup__header header-popup">
+				<h5 class="header-popup__title">Регистрация</h5>
+				<button data-close type="button" class="header-popup__close popup__close"></button>
 			</div>
+			<div class="popup__inputs inputs-popup">
+				<p class="inputs-popup__text">Ваш ник в Телеграмме</p>
+				<input autocomplete="off" type="text" name="form[]" placeholder="nickname" class="input">
+			</div>
+			<div class="popup__inputs"></div>
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20221128075743"></script>
+	<script src="js/app.min.js?_v=20221219200748"></script>
 </body>
 
 </html>
